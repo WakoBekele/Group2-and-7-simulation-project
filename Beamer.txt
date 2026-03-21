@@ -1,0 +1,187 @@
+\documentclass{beamer}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\title{Skydiver Simulation \\ Terminal Velocity \& Air Resistance}
+\author{Group  2 and 7 Presentation}
+\date{\today}
+
+\begin{document}
+
+%-----------------------------
+\frame{\titlepage}
+
+%-----------------------------
+\begin{frame}{Introduction}
+\begin{itemize}
+    \item This project simulates a skydiver falling under gravity.
+    \item It includes the effects of air resistance and parachute deployment.
+    \item The goal is to understand terminal velocity using calculus and numerical methods.
+\end{itemize}
+\end{frame}
+
+%-----------------------------
+\begin{frame}{Simulation Overview}
+\begin{itemize}
+    \item Built using VPython (GlowScript).
+    \item 3D visualization of:
+    \begin{itemize}
+        \item Skydiver body
+        \item Ground and sky
+        \item Parachute deployment
+    \end{itemize}
+    \item Displays:
+    \begin{itemize}
+        \item Time
+        \item Velocity
+        \item Acceleration
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+%-----------------------------
+\begin{frame}{Physics Model}
+\textbf{Forces acting on the skydiver:}
+\begin{itemize}
+    \item Gravity:
+    \[
+    \vec{F}_g = m\vec{g}
+    \]
+    \item Air resistance (drag):
+    \[
+    \vec{F}_d = -k |\vec{v}| \vec{v}
+    \]
+\end{itemize}
+
+\textbf{Newton’s Second Law:}
+\[
+m \vec{a} = \vec{F}_g + \vec{F}_d
+\]
+
+\[
+\vec{a} = \vec{g} - k |\vec{v}| \vec{v}
+\]
+\end{frame}
+
+%-----------------------------
+\begin{frame}{Differential Equations}
+The motion is governed by:
+
+\[
+\frac{d\vec{v}}{dt} = \vec{g} - k |\vec{v}| \vec{v}
+\]
+
+\[
+\frac{d\vec{x}}{dt} = \vec{v}
+\]
+
+\textbf{Key idea:}
+\begin{itemize}
+    \item Velocity changes due to acceleration
+    \item Position changes due to velocity
+\end{itemize}
+\end{frame}
+
+%-----------------------------
+\begin{frame}{Euler Method (Numerical Solution)}
+We approximate the solution using Euler’s Method:
+
+\[
+\vec{v}_{new} = \vec{v} + \vec{a} \Delta t
+\]
+
+\[
+\vec{x}_{new} = \vec{x} + \vec{v} \Delta t
+\]
+
+\textbf{In code:}
+\begin{itemize}
+    \item \texttt{v = v + a*dt}
+    \item \texttt{pos = pos + v*dt}
+\end{itemize}
+
+\textbf{Time step:} $\Delta t = 0.01$
+\end{frame}
+
+%-----------------------------
+\begin{frame}{Simulation Stages}
+\begin{itemize}
+    \item \textbf{Stage 1: Free Fall}
+    \begin{itemize}
+        \item Gravity dominates
+        \item Velocity increases rapidly
+    \end{itemize}
+
+    \item \textbf{Stage 2: Air Resistance}
+    \begin{itemize}
+        \item Drag increases with speed
+        \item Acceleration decreases
+    \end{itemize}
+
+    \item \textbf{Stage 3: Parachute Deployment}
+    \begin{itemize}
+        \item Large drag coefficient
+        \item Rapid decrease in velocity
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+%-----------------------------
+\begin{frame}{Terminal Velocity}
+\textbf{Definition:}
+\begin{itemize}
+    \item Terminal velocity occurs when net force = 0
+\end{itemize}
+
+\[
+mg = k v^2
+\]
+
+\[
+v_{terminal} = \sqrt{\frac{mg}{k}}
+\]
+
+\begin{itemize}
+    \item Before parachute: high terminal velocity
+    \item After parachute: much lower terminal velocity
+\end{itemize}
+\end{frame}
+
+%-----------------------------
+\begin{frame}{Visual Output}
+\begin{itemize}
+    \item 3D animated skydiver
+    \item Real-time display of:
+    \begin{itemize}
+        \item Velocity
+        \item Acceleration
+        \item Time
+    \end{itemize}
+    \item Parachute visibly deploys after 6 seconds
+\end{itemize}
+
+% Optional screenshot
+% \includegraphics[width=\linewidth]{simulation.png}
+
+\end{frame}
+
+%-----------------------------
+\begin{frame}{Conclusion}
+\begin{itemize}
+    \item The simulation demonstrates real-world physics using calculus.
+    \item Euler’s method allows us to approximate motion step-by-step.
+    \item Air resistance plays a crucial role in limiting velocity.
+    \item Parachutes drastically reduce terminal velocity for safe landing.
+\end{itemize}
+\end{frame}
+
+%-----------------------------
+\begin{frame}{Questions}
+\centering
+\Huge Thank You! \\
+\vspace{1cm}
+Questions?
+\end{frame}
+
+\end{document}
