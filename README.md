@@ -19,9 +19,9 @@ The simulation demonstrates how terminal velocity is reached and how parachute d
 
 ## Simulation Preview
 
-![Free Fall](screenshots/stage1.png)
-![Terminal Velocity](screenshots/stage2.png)
-![Parachute](screenshots/stage3.png)
+![Free Fall](stage1.png)
+![Terminal Velocity](stage2.png)
+![Parachute](stage3.png)
 
 ---
 
