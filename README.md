@@ -17,24 +17,12 @@ The simulation demonstrates how terminal velocity is reached and how parachute d
 
 ---
 
-## Simulation Preview
-
-![Free Fall](stage1.png)
-![Terminal Velocity](stage2.png)
-![Parachute](stage3.png)
-
----
 
 ## Simulation Link
 https://www.glowscript.org/#/user/wakobekele/folder/MyPrograms/program/Skydiverterminalvelocity
 
 ---
 
-## Project Structure
-- `simulation/` → VPython code
-- `report/` → Final PDF report
-- `screenshots/` → Key simulation stages
-- `presentation/` → Slides
 
 ---
 
