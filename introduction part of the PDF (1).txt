@@ -1,0 +1,12 @@
+% =========================
+% INTRODUCTION
+% =========================
+
+\newpage
+\section{Introduction}
+
+Terminal velocity is the constant speed reached by an object when the force of gravity is balanced by air resistance. When an object falls, it initially accelerates due to gravity. As its speed increases, air resistance also increases until it balances the gravitational force.
+When an object falls from a height, it initially accelerates due to the force of gravity. However, as its speed increases, the air resistance acting in the opposite direction also increases. Eventually, the air resistance becomes equal to the gravitational force, and the object stops accelerating. From this point onward, it continues to fall at a constant speed known as terminal velocity.
+This concept is especially important in real-life applications such as skydiving. A skydiver experiences different stages during the fall, including rapid acceleration, gradual slowing of acceleration due to air resistance, and finally a controlled descent after the parachute is deployed. Understanding these stages helps explain how safe landing is achieved.
+The main objective of this project is to model and visualize the motion of a skydiver using a computer simulation. A 3D simulation was developed using GlowScript VPython to represent the effects of gravity and air resistance on a falling body. The simulation also demonstrates how terminal velocity is reached and how the opening of a parachute affects the motion.
+
