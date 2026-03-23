@@ -1,0 +1,54 @@
+% =========================
+% THEORY
+% =========================
+
+\newpage
+
+\section{Theoretical Background}
+
+
+
+\subsection{Forces and Acceleration}
+\begin{bluebox}{Forces Acting on a Falling Body}
+When a skydiver jumps from a height, several forces act on the body. The most important force is gravity, which pulls the skydiver downward toward the Earth. This force is given by:
+
+\[
+F_g = mg
+\]
+
+where $m$ is the mass of the skydiver and $g$ is the acceleration due to gravity (approximately $9.8\,\text{m/s}^2$).
+
+In addition to gravity, air resistance (also called drag) acts in the opposite direction of motion. This force increases as the speed of the skydiver increases. Air resistance depends on factors such as the shape of the body, surface area, and speed.
+
+At the beginning of the fall, gravity is much greater than air resistance, so the skydiver accelerates downward. As the speed increases, air resistance becomes more significant and starts to reduce the net force acting on the body. 
+\end{bluebox}
+
+
+\subsection{Newton’s Second Law of Motion}
+
+The motion of the skydiver can be explained using Newton’s Second Law, which states that:
+
+\[
+F_{\text{net}} = ma
+\]
+
+This means that the acceleration of an object depends on the net force acting on it. For a falling skydiver, the net force is the difference between gravitational force and air resistance:
+
+\[
+F_{\text{net}} = mg - F_{\text{drag}}
+\]
+
+At the start of the fall, air resistance is very small, so the net force is nearly equal to $mg$, resulting in large downward acceleration. As air resistance increases, the net force decreases, and the acceleration becomes smaller.
+
+Eventually, the forces balance each other, and the net force becomes zero. At this point, the acceleration becomes zero, even though the skydiver is still moving.
+
+\subsection{Air Resistance (Drag Force)}
+
+Air resistance is a force that opposes the motion of an object moving through air. For objects moving at relatively high speeds, the drag force can be approximated by:
+
+\[
+F_{\text{drag}} = kv^2
+\]
+
+where $k$ is a constant that depends on factors such as air density and surface area, and $v$ is the velocity of the object.
+
