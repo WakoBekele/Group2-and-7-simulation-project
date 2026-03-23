@@ -1,0 +1,43 @@
+% --- 4. PHYSICS MODEL ---
+\begin{frame}{The Physics Model}
+    \begin{columns}
+        \begin{column}{0.48\textwidth}
+            \begin{mainbox}{Forces in Play}
+                \textbf{1. Gravity:}
+                \[ \vec{F}_g = m\vec{g} \]
+                \textbf{2. Air Resistance (Drag):}
+                \[ \vec{F}_d = -k |\vec{v}| \vec{v} \]
+            \end{mainbox}
+        \end{column}
+        \begin{column}{0.48\textwidth}
+            \begin{mainbox}{Newton's Second Law}
+                The net acceleration is determined by:
+                \[ m \vec{a} = \vec{F}_g + \vec{F}_d \]
+                \textbf{Resultant Acceleration:}
+                \[ \vec{a} = \vec{g} - \frac{k}{m} |\vec{v}| \vec{v} \]
+            \end{mainbox}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% --- 5. DIFFERENTIAL EQUATIONS ---
+\begin{frame}{Differential Equations}
+    \centering
+    \begin{minipage}{0.7\textwidth}
+        \begin{mainbox}{Governing Equations}
+            To find
+position and velocity, we solve:
+            \[ \frac{d\vec{v}}{dt} = \vec{g} - \frac{k}{m} |\vec{v}| \vec{v} \]
+            \[ \frac{d\vec{x}}{dt} = \vec{v} \]
+        \end{mainbox}
+    \end{minipage}
+    \vspace{0.4cm}
+    \begin{columns}
+        \begin{column}{0.45\textwidth}
+            \centering \textbf{Velocity Change:} \\ Due to Net Acceleration
+        \end{column}
+        \begin{column}{0.45\textwidth}
+            \centering \textbf{Position Change:} \\ Due to Instantaneous Velocity
+        \end{column}
+    \end{columns}
+\end{frame}
