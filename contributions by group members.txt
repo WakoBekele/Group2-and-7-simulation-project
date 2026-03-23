@@ -1,0 +1,15 @@
+%------------------------
+%CONTRIBUTIONS
+%-----------------------
+\newpage
+
+\section{Contributions By Group Members}
+As indicated on the first page of this PDF, the project was done by the cooperative work done by Group 2 and Group 7. Students from each group have contributed atleast a single part of the project. The following screenshot shows the commits of some students:
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.75\linewidth]{commits.png}
+    \caption{Commits of some students till March 21, 2026}
+
+\end{figure}
+
+Students not having accesses to Github and GlowScript Vpython have made their contributions through other platforms (i.e Disscussion Group in Telegram). Furthermore, the Github link is Found on the "Project Resources" Section.
