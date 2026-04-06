@@ -20,7 +20,8 @@ The simulation demonstrates how terminal velocity is reached and how parachute d
 
 ## Simulation Link
 https://www.glowscript.org/#/user/wakobekele/folder/MyPrograms/program/Skydiverterminalvelocity
-
+## Overleaf Link
+https://www.overleaf.com/read/mmzzmqrpdnbk#7e379b
 ---
 
 
@@ -35,4 +36,4 @@ https://www.glowscript.org/#/user/wakobekele/folder/MyPrograms/program/Skydivert
 ---
 
 ## Author
-Wako Bekele Sory and Group Members
+Wako Bekele Sory and Group Member
